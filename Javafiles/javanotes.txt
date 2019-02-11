@@ -400,6 +400,26 @@ int lastIndexOf(object o);
 
 Data time api:
 
+there were two problems with java.util,date package
+where particularly we cannot get date only , or year only
+
+to avoid these problems 
+java date api package is used.
+local date 
+local time
+local Datetime
+
+object should be immutable such that we cannot change the object value ,only new object will be formed.
+it should be thread safe.
+it use ISO standard.
+date : ISO 8061 FORMAT  yyyy-mm-dd
+time : HH:mm:ss.SSS
+SSS is in nano second and it will always be in group of 3
+there are two exception
+date time exception
+date time parse exception
+
+
 
 
 
