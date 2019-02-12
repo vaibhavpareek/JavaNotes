@@ -422,16 +422,38 @@ date time parse exception
 
 ********************************
 
+String :
+string  - it is immutable
+string buffer - it is mutable ,synchronized   
+string builder  -| , it is not  synchronized
+string takenover
+
+String s = "hello"; it sometiimes doesn't create a new object,if object is present already,it will create a refrence.
+String s = new String("hello") ; - it will always create a new object ,it will use heap.
 
 
+equals function will  compare the content.
+where == will  compare the address..
 
+there are three ways to create the object
+String s1 ="hello";
+String s2 = new String("hello")
+String [] s3
 
+String constructor 
 
+1. public String()
+2. public String(String)
+3. public String(char [])
+4. public String(byte [])
+5. public String(char [],int offset,int no_of_chars)_
+6. public String(byte [],int offset,int no_of_chars)_
 
-
-
-
-
+string class methods: 
+concat() - it is used to join strings
+length() - it return the integer 
+charAt(index);
+toCharArray();
 
 
 
