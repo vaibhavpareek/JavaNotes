@@ -398,29 +398,29 @@ int lastIndexOf(object o);
 
 
 
-Data time api:
+ Data time api:
 
-there were two problems with java.util,date package
-where particularly we cannot get date only , or year only
+ there were two problems with java.util,date package
+ where particularly we cannot get date only , or year only
 
-to avoid these problems 
-java date api package is used.
-local date 
-local time
-local Datetime
+ to avoid these problems 
+ java date api package is used.
+ local date 
+ local time
+ local Datetime
 
-object should be immutable such that we cannot change the object value ,only new object will be formed.
-it should be thread safe.
-it use ISO standard.
-date : ISO 8061 FORMAT  yyyy-mm-dd
-time : HH:mm:ss.SSS
-SSS is in nano second and it will always be in group of 3
-there are two exception
-date time exception
-date time parse exception
+  object should be immutable such that we cannot change the object value ,only new object will be formed.
+  it should be thread safe.
+  it use ISO standard.
+  date : ISO 8061 FORMAT  yyyy-mm-dd
+  time : HH:mm:ss.SSS
+  SSS is in nano second and it will always be in group of 3
+  there are two exception
+  date time exception
+  date time parse exception
 
 
-********************************
+ ********************************
 
 String :
 string  - it is immutable
@@ -466,3 +466,41 @@ trim () - omit all the trailing spaces.
 string split 
 String [] s = "gh  v  f ad b n  k lSNFJAN"
 System.out.println(s.split(" ",limit))
+
+
+String builder class:
+capacity : how many elements caan be stored
+size/length() : how many elements are stored
+
+here 
+append() to append any data type or concate
+all + will be append to data into string builder
+system.out.println("hello" + a + "world" + obj)
+
+2n+2 are declared for n we have passed in object for capacity
+
+String builder methods:
+void ensureCapacity (int enp)
+setlength(int a)
+char charAt(int index,"alpha")
+{ it will replace the char at index}
+insert () it will shift the elements to right or somewhere
+reverse () it will reverse the chars and return the string builder
+replace ()
+delete ()
+deletecharat()
+
+IN string builder it always going to compare the address space
+but to use equals we should go for string to match the content.
+
+Inheritance"              
+ two relationship 
+ 1. is - a   for inheriting
+
+ 2. has - a  for attributes
+if we declare a class final it cannot be inherited
+if we declare a class abstract no object can be created ,it can have abstract method(without a body followed by abstract keyword if we inherit it we have to define in child class otherwise it will became abstract class)
+
+
+
+
