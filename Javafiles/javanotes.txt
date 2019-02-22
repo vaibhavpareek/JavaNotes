@@ -501,6 +501,22 @@ Inheritance"
 if we declare a class final it cannot be inherited
 if we declare a class abstract no object can be created ,it can have abstract method(without a body followed by abstract keyword if we inherit it we have to define in child class otherwise it will became abstract class)
 
+interface cannot inherit  the  class but vice versa is possible.
+values are inherited from the immediate parent.
+if there is no super() in first statememt in constructor
+then it will call the constructor 
 
+parent class object can hold the refrence of child class but vice versa is not possible
+Vechicle v = new Car();
+Car c = new DriverLessCar();
+Car a = new Vechicle();  not possible
 
+InstanceOf:
+polymorphism:
 
+at compile  time binding is with  refrence variable
+at run time binding is with defined variabel
+
+instanceOf:
+c instanceOf Car - return boolean value;
+v instanceOf Car - return true
