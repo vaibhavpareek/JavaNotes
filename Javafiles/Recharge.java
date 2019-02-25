@@ -1,7 +1,7 @@
 import java.util.*;
 class Recharge{
         Long mob_no;
-        int  plan_no;
+        int plan_no;
      public enum Recharge_Packs {
 		Plan1(100,50,500,59),Plan2(200,100,1000,46),Plan3(300,200,2000,79),Plan4(500,300,4000,49);
 		int call_minutes;

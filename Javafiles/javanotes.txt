@@ -520,3 +520,11 @@ at run time binding is with defined variabel
 instanceOf:
 c instanceOf Car - return boolean value;
 v instanceOf Car - return true
+
+
+in inherited class if we have no constructor then default constructor will call super() by  itself
+so we should define a parameterised constructor in inherited class too.
+
+in inherited class ,it will call the super(argument)
+in overriding signature cannot be changed
+but return can be changed
