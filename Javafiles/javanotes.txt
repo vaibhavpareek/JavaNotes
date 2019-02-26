@@ -528,3 +528,17 @@ so we should define a parameterised constructor in inherited class too.
 in inherited class ,it will call the super(argument)
 in overriding signature cannot be changed
 but return can be changed
+
+run time polymorphism is method overriding
+access specifier cannot be reduced in  inherited class for a method
+@override - it is a anotation usd to check overiding check  at compile time
+method hiding:
+if you define a static method of a parent class in child class
+and it is not a method overriding
+in static methods run time binding is not there so always according to static polymorphism static method will be called
+
+Use of super()
+1. in case of  overriding we can call the original method of parent class also
+using super.method()
+2. if we want to use the original values of parent class we can use
+object_name.super.var_name;
