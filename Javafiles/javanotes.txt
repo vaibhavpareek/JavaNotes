@@ -542,3 +542,17 @@ Use of super()
 using super.method()
 2. if we want to use the original values of parent class we can use
 object_name.super.var_name;
+
+constructor chaining
+we have to left atleast one constructor without loop or super
+
+final :
+in class it can be inherited
+in method cannot be override
+in var it is constant
+
+final var does not get default value.
+
+if we declare private constructor in a class we cannot create its obejct as well as we cannot inherit it.
+static method can also be called with object as well as class name
+
