@@ -556,3 +556,55 @@ final var does not get default value.
 if we declare private constructor in a class we cannot create its obejct as well as we cannot inherit it.
 static method can also be called with object as well as class name
 
+
+
+                                                        collection
+                    1.list                              2. set                                3. queue
+          abstract list                                abstract set                           abstract queue
+ 
+         ArrayList Vector                        hash set
+
+                   Stack
+
+
+                   *****************************************************************************************
+
+     											AFTER MTE
+
+      			   *****************************************************************************************
+ INterface(Multiple Inheritance):
+
+*blank interface without any abstract method is known as marker interface
+*interface with a single abstract method is known as functional interface
+*interface is used to implement multiple inheritance
+*inheritance as inteface inherit by class
+*inheritance as inteface extends other interface
+*inheritance as class extends class
+*interface cannot have constructor
+*interface cannot be instantiate
+*before jdk1.8 interface can only have abstract methods
+*by default variable are public static final in interface
+*by default methods are public in nature
+*after jdk 1.8 it can have static and default methods
+*static methods cannot be inherited in interface
+*to use the default methods in class you have to override the method 
+*to use parent interface default  method you have to use Interface.super.method_name()
+*to use static method you have to call them using class name 
+*object cannot be created by using a inheritance phenomenon we can create a object
+	using anonymous class
+	Interface_name object_name = new Interface_name(){
+	            define the abstract method here;
+	}
+   here Interface name whose object we want to create
+   here one sub class is also created by name Interface_name$1,Interface_name$2,Interface_name$3 and so on.
+*Functional interface is having only one and only one abstract method.
+*@FunctionalInterface
+this annotation  is used to check whether the forward interface is functional or not.
+* to access the variable of abstarct class we can use super.var_name
+* to access the variablee of interface we can do Interface_name.super.var_name
+* default is a keyword which is used only inside the interface
+* same name variable of two interface can be inherted to a same class
+* same function signature functions can be inherited but needs to be redefined inside the class only once.
+* same function signature and retrun type functions can be inherited but needs to be redefined inside the class no of times a s diffrent interfaces are inherted.
+
+ 
