@@ -67,7 +67,7 @@ class ContactList
          for(int i=0;i<count;i++)
          {
          	ContactList cl = cont.get(i);
-         	if(Search.equalsIgnoreCase(cl.Name))
+         	if((cl.Name.indexOf(Search)) != -1)//cl.Name.contains(Search)
          	{   //String se = cl.Name;
          		//System.out.println("Welcome " + a);
 

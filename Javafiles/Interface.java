@@ -1,4 +1,5 @@
 abstract class A{
+	
 	abstract public int add(int a,int b);
     int a = 10;
     

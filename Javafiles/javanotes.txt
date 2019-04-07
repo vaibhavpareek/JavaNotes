@@ -606,5 +606,17 @@ this annotation  is used to check whether the forward interface is functional or
 * same name variable of two interface can be inherted to a same class
 * same function signature functions can be inherited but needs to be redefined inside the class only once.
 * same function signature and retrun type functions can be inherited but needs to be redefined inside the class no of times a s diffrent interfaces are inherted.
+* backtracking was possible in interface to maintain that default keyword is used otherwise it would have became impossibleto complete on going project.
 
- 
+		Nested Class:
+*nested class can be defined inside a class
+*nested class can be of two diffrent types
+*1. static nested class
+*2. non static nested class
+*static nested class  
+*access specifiers are allowed in nested classes
+
+
+throw 
+1. Explicit throw of exception
+2. re throwing of exceptionN
